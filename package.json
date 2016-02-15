@@ -1,0 +1,24 @@
+{
+  "name": "timestamp_microservice",
+  "version": "0.1.0",
+  "description": "A timestamp microservic for freecodecamp.com backend cert",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheDukeOfAwesome/tsms.git"
+  },
+  "keywords": [
+    "timestamp",
+    "microservice",
+    "freecodecamp"
+  ],
+  "author": "Carl J. Kashnier",
+  "license": "NA",
+  "bugs": {
+    "url": "https://github.com/TheDukeOfAwesome/tsms/issues"
+  },
+  "homepage": "https://github.com/TheDukeOfAwesome/tsms"
+}

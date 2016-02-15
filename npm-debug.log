@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'init' ]
+2 info using npm@1.4.29
+3 info using node@v0.10.42
+4 verbose node symlink /usr/bin/node
+5 verbose config Skipping project config: /home/carl/.npmrc. (matches userconfig)
+6 warn deprecated This version of npm lacks support for important features,
+7 warn deprecated such as scoped packages, offered by the primary npm
+8 warn deprecated registry. Consider upgrading to at least npm@2, if not the
+9 warn deprecated latest stable version. To upgrade to npm@2, run:
+10 warn deprecated npm -g install npm@latest-2
+11 warn deprecated To upgrade to the latest stable version, run:
+12 warn deprecated npm -g install npm@latest
+13 warn deprecated (Depending on how Node.js was installed on your system, you
+14 warn deprecated may need to prefix the preceding commands with `sudo`, or if
+15 warn deprecated on Windows, run them from an Administrator prompt.)
+16 warn deprecated If you're running the version of npm bundled with
+17 warn deprecated Node.js 0.10 LTS, be aware that the next version of 0.10 LTS
+18 warn deprecated will be bundled with a version of npm@2, which has some small
+19 warn deprecated backwards-incompatible changes made to `npm run-script` and
+20 warn deprecated semver behavior.
+21 silly package data undefined
+22 info init written successfully
+23 error Error: Invalid name: "npm -g install npm@latest"
+23 error     at ensureValidName (/usr/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/fixer.js:315:15)
+23 error     at Object.module.exports.fixNameField (/usr/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/fixer.js:204:5)
+23 error     at /usr/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/normalize.js:30:38
+23 error     at Array.forEach (native)
+23 error     at normalize (/usr/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/normalize.js:29:15)
+23 error     at final (/usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:342:33)
+23 error     at then (/usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:126:33)
+23 error     at /usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:316:48
+23 error     at evalmachine.<anonymous>:208:20
+23 error     at OpenReq.Req.done (/usr/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:141:5)
+24 error If you need help, you may report this *entire* log,
+24 error including the npm and node versions, at:
+24 error     <http://github.com/npm/npm/issues>
+25 error System Linux 3.19.0-50-generic
+26 error command "/usr/bin/node" "/usr/bin/npm" "init"
+27 error cwd /home/carl/heroku/timestamp_microservice
+28 error node -v v0.10.42
+29 error npm -v 1.4.29
+30 verbose exit [ 1, true ]
