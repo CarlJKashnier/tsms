@@ -31,8 +31,6 @@ if (parsedDate == "Invalid Date" || unixOut === "NaN"){
 } else {
   var natDate = dateformat(unixOut, "mmmm d, yyyy")
 unixOut = dateStringSan
-
-  console.log(natDate + " " + unixOut)
   res.writeHead(200, { 'Content-Type': 'application/json' });
   res.write(JSON.stringify({"unix": unixOut, "natural": natDate}));
   res.end();
