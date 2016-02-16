@@ -37,4 +37,4 @@ unixOut = dateStringSan
   return
 }
 });
-server.listen(8888);
+server.listen(process.env.PORT || 8888);
